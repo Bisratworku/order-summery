@@ -62,7 +62,7 @@ header{
 .price{
     margin-top: 5px;
     padding-left: 20px;
-    margin-left: 30px;  
+    margin-left: 8%;  
     width: 85%;
     height: 25%;
     background-color: hsl(225, 100%, 94%);
@@ -71,8 +71,8 @@ header{
     align-items: center;
 }
 .misic-icon{
-    width: 40px;
-    height: 40px;
+    width: 15%;
+    height: 80%;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -85,7 +85,7 @@ header{
     font-size: 16px;
     width: 34%;
     font-family:'Red Hat Display';    
-    margin-left: 10px;
+    margin-left: 5%;
     height: 60%;
     display: flex;
     justify-content: center;
@@ -100,7 +100,7 @@ header{
 .link {
     font-size: 15px;
     display: flex;
-    margin-left: 54px;    
+    margin-left: 20%;    
 }
 .link a{
     color: hsl(245, 75%, 52%);
@@ -119,6 +119,7 @@ header{
     background-color: hsl(245, 75%, 52%);
     font-size: 15px;
     font-family: 'Red Hat Display';
+    cursor: pointer;
 }
 .cancel{
     display: flex;
@@ -127,8 +128,24 @@ header{
     height: 30px;
     color: hsl(224, 23%, 55%);
     font-family: 'Red Hat Display';
+    cursor: pointer;
 }
-
+@media(max-width:1250px) {
+    .card-component {
+        width: 20rem;
+        height: 32rem;
+    }
+    .link{
+        margin-right: 5%;
+    }
+    .offer{
+        margin-left:10% ;
+    }
+    .misic-icon{
+        height: 50%;
+    
+    }
+}
 
 
 
